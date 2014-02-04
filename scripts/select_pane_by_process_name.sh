@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function psSubtree {
   echo `pstree $1 | tr '[:upper:]' '[:lower:]'`
